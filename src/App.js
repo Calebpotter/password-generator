@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Button} from './button/Button';
+import { Display } from './display/Display';
 
 function App() {
+  const p = "123ABC"
+  const buttonName = "Generate"
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>
+            C and G's Password Producer
+        </h1>  
       </header>
+      <main>
+        <Button buttonName={buttonName}  />
+        <Display password={p}/>
+      </main>
     </div>
   );
 }

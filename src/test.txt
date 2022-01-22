@@ -1,0 +1,24 @@
+What is HTML
+a way to organize data on a webpage
+Tags to know:
+div-can be overs used 
+h1-6 - different headers
+p- paragraph
+main 
+content
+nav
+li
+ul
+ol
+table
+img
+
+What is CSS - cascading style sheets
+How to style the data
+review:
+selectors(id, tag, attribute)
+Styles
+
+What is javascript
+allows it to become interactive
+
