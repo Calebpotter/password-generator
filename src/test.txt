@@ -16,7 +16,7 @@ img
 What is CSS - cascading style sheets
 How to style the data
 review:
-selectors(id, tag, attribute)
+selectors(id, tag, attribute, class)
 Styles
 
 What is javascript
